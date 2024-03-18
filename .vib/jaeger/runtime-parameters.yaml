@@ -23,7 +23,7 @@ query:
           #!/bin/bash
           while true; do
             # Sample taken from inspecting hotrod code
-            curl 'http://127.0.0.1:8080/dispatch?customer=392&nonse=0.45838884710501726'
+            curl 'http://127.0.0.1:8080/dispatch?customer=392&nonse=0.45838884710501726' --fail
             sleep 5
           done
       securityContext:
